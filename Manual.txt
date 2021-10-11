@@ -1,0 +1,114 @@
+This app is just to handle the classes of a school .
+It has 3 user roles as admin , teacher , student . 
+
+Let's have a look at functionaliies 
+
+Admin
+Login
+view my profile 
+	In here he /she sees a profile description of his / her account
+	sees a button to change password page 
+	button to logout
+	Button to delete account . 
+		after deleting account .try to login the same account . you will be noticed the account doesn't exist
+Change password
+approve teachers
+	Just after teaacher signs up the teacher can't login to the system . teacher has to wait untill the admin accept . admin can also reject unusual registrations
+view teachers of the school
+	ADmin can view the teachers of the school 
+view students	
+	admin can view the students of school
+add classes
+	admin has to add classes dynamically . when student sign up they have to select their class from the list of classes that the admin has created .
+	as well as admin assign teachers to classes . so teacher of a class and the students who have registered to same class can be linked dynamically .
+	It will be useful for our homework module which you will see in the future
+view classes
+	He can view all the classes that he has already created
+assign teachers to classes
+	This part was hardly described in add classes module too . the thing we do here is assign teacher dynamically to the classes .
+
+Teacher
+
+view my profile 
+	In here he /she sees a profile description of his / her account
+	sees a button to change password page 
+	button to logout
+	Button to delete account . 
+		after deleting account .try to login the same account . you will be noticed the account doesn't exist
+Change password
+approve students
+	Just after student signs up the student can't login to the system . student has to wait untill the teacher accept . teacher can also reject unusual registrations
+view students	
+	teacher can view the students of school
+view classes
+	He can view all the classes that he has already created
+Add homework
+	Teacher can upload homework .students of the class , which the teacher is assigned , will see the homework and students can upload answers .but i haven't implemented the rest of the homework module like teacher's evaluation process of the homeworks because of the hardness of internship 
+
+
+Student
+
+view my profile 
+	In here he /she sees a profile description of his / her account
+	sees a button to change password page 
+	button to logout
+	Button to delete account . 
+		after deleting account .try to login the same account . you will be noticed the account doesn't exist
+Change password
+
+View homework 
+	he can view homework and upload the answer  . but teacher doesn't see it . because that part is not implemented .
+
+
+
+I hope this software will reach the requirments of the assignment . 
+
+
+
+
+
+
+
+
+Instructions to go through the software
+
+Before login as admin i recomond you  to go to sign up link and continue to sign up as a teacher . Then enter deatails and sign up first .
+( because 
+Firebase doesn't allow to multiple sign up within few minutes . because when a person signup firebase default consider that person's computer as authenticated device . 
+So i think it's happening to increase the security or block suspecious logins . So if you want to sign up more than one account from the same device . you may need to power off everything and restart them back .
+So the best thing is using two emulators . ( This thing matters only for signup process . login and login to another account doesn't give any mess like that .
+So In the sign up process I preffer if you use two other emulators to test their sign ups . )
+
+Then wait for some time to complete the process .
+then go to login and 
+enter 
+admin@gmail.com
+admin@gmail.com
+for email and password 
+then before reading instructions furthur , just have a quick look up in the plateform and continue instructions
+First visit 
+view teachers
+view students 
+and view classes
+then go to approve teachers and approve the teacher whome you created a few minutes ago .
+then go to add classes and add two classes like 9 A , 10 B or whatever 
+then go to assign teacher and assign the teacher you created for a class .
+dont forget the class . because when you sign up as a student only the teacher or relavent class can accept you  . other teachers can not do it . even admin can not accept
+now go to my profile and logout  . 
+i recomond to test change password and delete account for an account ither than admin . because it is admin ryt . lol
+then you can loging with the teachers credentials that you have previously created .
+i recomond you to see view students , view classes 
+then visit approve students .  you see no students are in the queue .
+so jjust go back and go to add homework . then add some simple homework . remember that students who register to this teachers class even after teacher has published the homework , can see the homework in their homework page
+now go to my profile and change password . now try to login with previous password and new password . after changing password .
+now close everything and open app again after some minutes or use another simulator to register a student . 
+then you can sign up as a student . while signing in you can selec the class .so dont forget to register to the class of the teacher whome you created previously .otherwise you will not be able to accept the student and even student can not see the homework that teacher published
+once sign up is completed just login as teacher and accept that student 
+then you can logout and login as that student . 
+you can first view the homework .
+then go to my profile and delete account . now try to login to system with same credentials of the student you created . 
+
+
+THANKS FOR READING .
+
+	IT WAS A GOOD JOB AND I COULD LEARN LOT OF THINGS . THANKS FOR SUCH A MODERN ASSIGNMENT . 
